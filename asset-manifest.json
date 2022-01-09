@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/onlyorganic.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/onlyorganic.github.io/static/js/main.1a4e3798.js",
+    "static/js/787.680912d9.chunk.js": "/onlyorganic.github.io/static/js/787.680912d9.chunk.js",
+    "index.html": "/onlyorganic.github.io/index.html",
+    "main.073c9b0a.css.map": "/onlyorganic.github.io/static/css/main.073c9b0a.css.map",
+    "main.1a4e3798.js.map": "/onlyorganic.github.io/static/js/main.1a4e3798.js.map",
+    "787.680912d9.chunk.js.map": "/onlyorganic.github.io/static/js/787.680912d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1a4e3798.js"
+  ]
+}
