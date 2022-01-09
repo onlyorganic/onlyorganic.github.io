@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/www.onlyorganic.io/static/css/main.073c9b0a.css",
-    "main.js": "/www.onlyorganic.io/static/js/main.36d3b2e7.js",
-    "static/js/787.680912d9.chunk.js": "/www.onlyorganic.io/static/js/787.680912d9.chunk.js",
-    "index.html": "/www.onlyorganic.io/index.html",
-    "main.073c9b0a.css.map": "/www.onlyorganic.io/static/css/main.073c9b0a.css.map",
-    "main.36d3b2e7.js.map": "/www.onlyorganic.io/static/js/main.36d3b2e7.js.map",
-    "787.680912d9.chunk.js.map": "/www.onlyorganic.io/static/js/787.680912d9.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.246b42e9.js",
+    "static/js/787.680912d9.chunk.js": "/static/js/787.680912d9.chunk.js",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.246b42e9.js.map": "/static/js/main.246b42e9.js.map",
+    "787.680912d9.chunk.js.map": "/static/js/787.680912d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.36d3b2e7.js"
+    "static/js/main.246b42e9.js"
   ]
 }
