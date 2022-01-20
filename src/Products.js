@@ -7,16 +7,19 @@ import Typography from "@mui/material/Typography"
 const products = [
   {
     id: "paddy",
-    title: "Paddy Cultivation: How we do",
+    title: "Paddy Cultivation: Our way of growing",
     description: (
       <Description
         data={[
-          "Plough and wet the beds",
-          "Collect Bin Berry plants and Neem leaves from nearby places around our farm",
-          "Move collected Bin Berry plants to the beds",
+          "Grow crop with proven traditional practices",
+          // "Plough and wet the beds",
+          "Collect Bin Berry plants from nearby places and move to beds",
+          // "Move collected Bin Berry plants to the beds",
           "Spread the Bin Berry plants across beds and ride the tractor",
           "Follows Transplantation, Field Maintenance, Harvesting, Threshing, Winnowing and Milling",
           "River water is used for the paddy, which adds additional nutritional value",
+          "Crop rotation, to optimize nutrients in the soil",
+          "No to anything which contaminate soil, air, water and the food",
         ]}
       />
     ),
@@ -40,8 +43,8 @@ export default function HorizontalCentering() {
       style={{
         maxWidth: "60%",
         marginLeft: "20%",
-        marginTop: 20,
-        marginBottom: 20,
+        marginTop: 15,
+        marginBottom: 15,
       }}
     >
       {products.map((p) => (
