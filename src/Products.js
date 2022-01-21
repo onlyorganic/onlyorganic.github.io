@@ -12,9 +12,7 @@ const products = [
       <Description
         data={[
           "Grow crop with proven traditional practices",
-          // "Plough and wet the beds",
           "Collect Bin Berry plants from nearby places and move to beds",
-          // "Move collected Bin Berry plants to the beds",
           "Spread the Bin Berry plants across beds and ride the tractor",
           "Follows Transplantation, Field Maintenance, Harvesting, Threshing, Winnowing and Milling",
           "River water is used for the paddy, which adds additional nutritional value",
@@ -36,17 +34,7 @@ function Description(props) {
 
 export default function HorizontalCentering() {
   return (
-    <Grid
-      container
-      spacing={4}
-      justify="center"
-      style={{
-        maxWidth: "60%",
-        marginLeft: "20%",
-        marginTop: 15,
-        marginBottom: 15,
-      }}
-    >
+    <Grid container spacing={2}>
       {products.map((p) => (
         <Grid item xs={12} key={p.id}>
           <iframe
@@ -54,11 +42,11 @@ export default function HorizontalCentering() {
             src={p.src}
             frameBorder="0"
             allowFullScreen
-            width="95%"
-            height="400"
+            width="100%"
+            height={window.parent.innerHeight / 2}
           ></iframe>
           <Box>
-            <Typography variant="h5">{p.title}</Typography>
+            <Typography variant="h6">{p.title}</Typography>
             <Typography variant="body2" color="text.secondary">
               {p.description}
             </Typography>
