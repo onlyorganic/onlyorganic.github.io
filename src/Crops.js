@@ -12,8 +12,8 @@ const crops = [
       <Description
         data={[
           "Grow crop with proven traditional practices",
-          "Collect Bin Berry plants from nearby places and move them to beds",
-          "Spread the Bin Berry plants across beds and ride the tractor",
+          "Collect Gin Berry plants (Gonji chettu) from nearby places and move them to beds",
+          "Spread the Gin Berry plants across beds and ride the tractor",
           "Follows Transplantation, Field Maintenance, Harvesting, Threshing, Winnowing, and Milling",
           "River water is used for the paddy, which adds additional nutritional value",
           "Crop rotation, to optimize nutrients in the soil",
