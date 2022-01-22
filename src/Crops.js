@@ -29,7 +29,7 @@ const crops = [
 function Description(props) {
   const data = props.data
   const listItems = data.map((d) => <li key={d}>{d}</li>)
-  return <ul>{listItems}</ul>
+  return <ul style={{ marginTop: 0 }}>{listItems}</ul>
 }
 
 export default function Crops() {
@@ -37,14 +37,16 @@ export default function Crops() {
     <Grid container spacing={2}>
       {crops.map((crop) => (
         <Grid item xs={12} key={crop.id}>
-          <iframe
-            title={crop.title}
-            src={crop.src}
-            frameBorder="0"
-            allowFullScreen
-            width="100%"
-            height={window.parent.innerHeight / 2}
-          ></iframe>
+          <div className="iframe-container">
+            <iframe
+              title={crop.title}
+              src={crop.src}
+              frameBorder="0"
+              allowFullScreen
+              width="100%"
+              className="iframe"
+            ></iframe>
+          </div>
           <Box>
             <Typography variant="h6">{crop.title}</Typography>
             <Box sx={{ typography: "body2" }} color="text.secondary">
