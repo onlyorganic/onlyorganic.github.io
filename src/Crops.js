@@ -4,7 +4,7 @@ import Box from "@mui/material/Box"
 import Grid from "@mui/material/Grid"
 import Typography from "@mui/material/Typography"
 
-const products = [
+const crops = [
   {
     id: "paddy",
     title: "Paddy Cultivation: Our way of growing",
@@ -31,23 +31,24 @@ function Description(props) {
   const listItems = data.map((d) => <li key={d}>{d}</li>)
   return <ul>{listItems}</ul>
 }
-export default function HorizontalCentering() {
+
+export default function Crops() {
   return (
     <Grid container spacing={2}>
-      {products.map((p) => (
-        <Grid item xs={12} key={p.id}>
+      {crops.map((crop) => (
+        <Grid item xs={12} key={crop.id}>
           <iframe
-            title={p.title}
-            src={p.src}
+            title={crop.title}
+            src={crop.src}
             frameBorder="0"
             allowFullScreen
             width="100%"
             height={window.parent.innerHeight / 2}
           ></iframe>
           <Box>
-            <Typography variant="h6">{p.title}</Typography>
+            <Typography variant="h6">{crop.title}</Typography>
             <Box sx={{ typography: "body2" }} color="text.secondary">
-              {p.description}
+              {crop.description}
             </Box>
           </Box>
         </Grid>
