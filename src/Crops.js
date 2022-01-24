@@ -26,7 +26,7 @@ const crops = [
           "River water is used for the paddy, which adds additional nutritional value",
           "Crop rotation, to optimize nutrients in the soil",
           "No to anything which contaminates soil, air, water, and the food",
-          "Type: Sugger less, Start date: 15 December 2021, Age:" +
+          "Type: Sugarless, Started on: 15 December 2021, Age: " +
             getDays("15 December 2021"),
         ]}
       />
